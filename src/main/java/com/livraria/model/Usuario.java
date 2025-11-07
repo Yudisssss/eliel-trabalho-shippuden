@@ -1,4 +1,4 @@
-package com.livraria.entity;
+package com.livraria.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,17 +8,21 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
+import java.math.BigDecimal;
+
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Periodico {
+public class Usuario {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String title;
-    private String type; 
-    private boolean available = true;
 
+    private String nome;
+    private int limiteEmprestimos = 3;
+    private BigDecimal multaPendente = BigDecimal.ZERO;
 
 }

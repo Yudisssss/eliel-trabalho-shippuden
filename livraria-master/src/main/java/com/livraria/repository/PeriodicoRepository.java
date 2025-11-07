@@ -1,6 +1,6 @@
 package com.livraria.repository;
 
-import com.livraria.entity.Periodico;
+import com.livraria.model.Periodico;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

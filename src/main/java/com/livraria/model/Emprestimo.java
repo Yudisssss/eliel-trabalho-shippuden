@@ -1,4 +1,4 @@
-package com.livraria.entity;
+package com.livraria.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

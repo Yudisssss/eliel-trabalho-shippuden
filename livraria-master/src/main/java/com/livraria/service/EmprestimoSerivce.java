@@ -1,9 +1,9 @@
 package com.livraria.service;
 
-import com.livraria.entity.Book;
-import com.livraria.entity.Emprestimo;
-import com.livraria.entity.Periodico;
-import com.livraria.entity.Usuario;
+import com.livraria.model.Book;
+import com.livraria.model.Emprestimo;
+import com.livraria.model.Periodico;
+import com.livraria.model.Usuario;
 import com.livraria.repository.BookRepository;
 import com.livraria.repository.EmprestimoRepository;
 import com.livraria.repository.PeriodicoRepository;

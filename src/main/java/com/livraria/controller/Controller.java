@@ -1,20 +1,19 @@
 package com.livraria.controller;
 
-import com.livraria.entity.Book;
-import com.livraria.entity.Periodico;
-import com.livraria.entity.Usuario;
+import com.livraria.model.Book;
+import com.livraria.model.Periodico;
+import com.livraria.model.Usuario;
 import com.livraria.service.BookService;
 import com.livraria.service.EmprestimoSerivce;
 import com.livraria.service.PeriodicoService;
 import com.livraria.service.UsuarioService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 
 @RequestMapping("/emprestimos")
 @RestController
-public class EmprestimoController {
+public class Controller {
     @Autowired
     private  EmprestimoSerivce service;
     @Autowired

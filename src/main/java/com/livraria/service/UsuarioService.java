@@ -1,6 +1,6 @@
 package com.livraria.service;
 
-import com.livraria.entity.Usuario;
+import com.livraria.model.Usuario;
 import com.livraria.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
 

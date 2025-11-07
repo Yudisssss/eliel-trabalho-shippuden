@@ -1,6 +1,6 @@
 package com.livraria.service;
 
-import com.livraria.entity.Periodico;
+import com.livraria.model.Periodico;
 import com.livraria.repository.PeriodicoRepository;
 import org.springframework.stereotype.Service;
 
